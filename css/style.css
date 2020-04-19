@@ -1,0 +1,130 @@
+.topnavbar {
+    overflow: hidden;
+    background-color: rgb(59, 149, 233);
+    position: fixed;
+    top: 0;
+    width: 100%;
+  }
+  
+  .topnavbar a {
+    float: left;
+    display: block;
+    border-right: 1px solid rgb(206, 202, 202);
+    color: rgb(255, 255, 255);
+    text-align: center;
+    padding: 8px 16px;
+    text-decoration: none;
+  }
+.topnavbar a:hover {
+    background-color: rgb(206, 202, 202);
+    color: black;
+  }
+  .flex-container {
+    display: flex;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    margin: 10px;
+    padding: 20px;
+    font-size: 20px;
+  }
+  @media screen and (max-width: 600px) {
+    .topnavbar a {
+        float: none;
+        width: 100%;
+        height: 5px;
+      }  
+    .flex-container {
+     margin-top: 150px;  
+     flex-wrap: wrap;
+    }
+    } 
+ 
+.grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-gap: 10px;
+        background-color: #4CAF50;
+        padding: 10px;
+    } 
+.grid-container > div {
+        background-color: #f0efec;
+        text-align: center;
+        padding: 20px;
+        font-size: 20px;
+}
+.grid-container-contact {
+    display: grid;
+    grid-template-columns: auto auto;
+    grid-gap: 10px;
+    background-color: rgba(255, 189, 8, 0.788);
+    padding: 10px;
+} 
+.grid-container-contact > div {
+    background-color: #f0efec;
+    text-align: center;
+    padding: 20px;
+    font-size: 20px;
+}
+.item3{
+    grid-column: 1 / span 2;
+  }
+  input[type=text], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=textarea], select {
+    width: 50%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  input[type=submit] {
+    width: 50%;
+    background-color: rgba(255, 189, 8, 0.788);
+    color: rgb(3, 3, 3);
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  
+  input[type=submit]:hover {
+    background-color: rgba(255, 189, 8, 0.884);
+  }
+  textarea {
+    width: 50%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-size: 16px;
+    resize: both;
+  }
+  div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  } 
+  .footer { 
+    bottom: 0;
+    width: 100%;
+    background-color: rgba(46, 121, 190, 0.87);
+    color: white;
+    text-align: center;
+ }
